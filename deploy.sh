@@ -14,6 +14,6 @@ git add -A
 git commit -m 'deploy'
 
 # https://<USERNAME>.github.io/<REPO> にデプロイする場合
-git push -f git@github.com:shibata-kuronosuke/urlmemo.git main:gh-pages
+git push -f git@github.com:ampoi.github.io/urlmemo.git main:gh-pages
 
 cd -

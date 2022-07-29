@@ -53,7 +53,7 @@ export default {
   methods: {
     makeURL(){
       const encoded = btoa(encodeURIComponent(this.fromText));
-      this.toURL = `${ location.origin }/urlmemo/?memo=${encoded}`
+      this.toURL = `${ location.origin }/?memo=${encoded}`
       console.log(this.toURL)
       navigator.clipboard.writeText(this.toURL).then(e => {
         alert('コピーできました');
